@@ -583,7 +583,20 @@ git clone https://github.com/<your-username>/finsetu-ai.git
 cd finsetu-ai
 ```
 
-## Frontend
+## Mobile App (current MVP — UI-first)
+
+The active codebase is an **Expo React Native app** running entirely on local
+mock data (no external services required). See `docs/api-contract.md` and
+`docs/integrations.md` for the backend plan.
+
+```bash
+npm install
+npx expo start
+```
+
+Then scan the QR code with the **Expo Go** app on any Android/iOS device.
+
+## Frontend (legacy web plan)
 
 ```bash
 cd frontend
