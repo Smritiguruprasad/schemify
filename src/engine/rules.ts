@@ -83,10 +83,12 @@ export function evaluateScheme(profile: BeneficiaryProfile, scheme: Scheme): Mat
 }
 
 function scoreScheme(profile: BeneficiaryProfile, s: Scheme): number {
-  const feasibility = Math.min(profile.projectCost, s.maxAssistance) / s.maxAssistance;
+  const isGrant = s.maxAssistance <= 0;
+  const feasibility = isGrant ? 1 : Math.min(profile.projectCost, s.maxAssistance) / s.maxAssistance;
   const purposeMatch = s.purposeTags.includes(profile.purpose) ? 1 : 0;
-  const assistRatio = s.fundingPercent / 100;
-  const bandFit = profile.projectCost >= s.minCost ? 1 : 0.3;
+  // A grant has no loan to fund, so its "funding percent" carries no signal.
+  const assistRatio = isGrant ? 0 : s.fundingPercent / 100;
+  const bandFit = s.minCost > 0 && profile.projectCost < s.minCost ? 0.3 : 1;
   return feasibility * 0.4 + purposeMatch * 0.35 + assistRatio * 0.15 + bandFit * 0.1;
 }
 

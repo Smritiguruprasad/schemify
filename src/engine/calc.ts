@@ -5,6 +5,21 @@ export function computeLoanPlan(
   projectCost: number,
   moratoriumOn: boolean
 ): LoanPlan {
+  if (scheme.maxAssistance <= 0) {
+    return {
+      eligibleLoan: 0,
+      contribution: 0,
+      principal: 0,
+      emi: 0,
+      totalInterest: 0,
+      totalPayable: 0,
+      moratoriumApplied: false,
+      moratoriumInterest: 0,
+      months: 0,
+      ratePct: 0,
+    };
+  }
+
   const eligibleLoan = Math.min(
     Math.round((projectCost * scheme.fundingPercent) / 100),
     scheme.maxAssistance
@@ -24,7 +39,8 @@ export function computeLoanPlan(
   const r = scheme.interestRate / 1200;
   const n = scheme.repaymentMonths;
   let emi: number;
-  if (r <= 0) emi = Math.ceil(principal / n);
+  if (n <= 0) emi = principal;
+  else if (r <= 0) emi = Math.ceil(principal / n);
   else {
     const pow = Math.pow(1 + r, n);
     emi = Math.ceil((principal * r * pow) / (pow - 1));
@@ -35,8 +51,8 @@ export function computeLoanPlan(
     contribution,
     principal,
     emi,
-    totalInterest: emi * n - principal,
-    totalPayable: emi * n,
+    totalInterest: n > 0 ? emi * n - principal : 0,
+    totalPayable: n > 0 ? emi * n : principal,
     moratoriumApplied,
     moratoriumInterest,
     months: n,

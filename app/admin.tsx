@@ -6,6 +6,7 @@ import { MiniBars } from '../src/components/charts';
 import { useApp } from '../src/store/AppStore';
 import { ApplicationStatus } from '../src/engine/types';
 import { purposeLabel } from '../data/constants';
+import { getSchemeById } from '../data/schemes';
 import { colors, font, spacing } from '../src/theme';
 
 const STATUSES: ApplicationStatus[] = ['submitted', 'acknowledged', 'under_review', 'sanctioned'];
@@ -61,20 +62,7 @@ export default function Admin() {
 }
 
 function getSchemePurpose(schemeId: string): string | undefined {
-  switch (schemeId) {
-    case 'education_loan':
-      return 'education';
-    case 'term_loan_scheme':
-      return 'business';
-    case 'micro_credit_finance':
-      return 'skill';
-    case 'mahila_samriddhi':
-      return 'skill';
-    case 'new_swarnima':
-      return 'business';
-    default:
-      return undefined;
-  }
+  return getSchemeById(schemeId)?.purposeTags[0];
 }
 
 const styles = StyleSheet.create({

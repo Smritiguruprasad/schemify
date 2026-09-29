@@ -1,4 +1,4 @@
-# FinSetu AI
+# FinSetu AI (schemify)
 
 ### Intelligent Scheme Matching & Channel-Partner Routing for SC Beneficiaries
 
@@ -9,6 +9,46 @@ FinSetu AI is a **multilingual, explainable financial-access platform** designed
 **Discover → Match → Calculate → Route → Apply → Track**
 
 FinSetu does **not** replace lenders, NSFDC, or authorized channel partners. Instead, it acts as an intelligent **pre-application layer** that helps beneficiaries make better-informed decisions and submit better-prepared applications.
+
+---
+
+## Scheme Database
+
+The app ships with **41 government schemes** sourced from `Document_39`, a curated
+master dataset covering central and state welfare schemes (NSFDC, MoSJE, MSME,
+Skill Development, PMEGP, MUDRA, Stand-Up India, scholarships, and state-level
+women's schemes).
+
+The dataset lives in `data/schemes.source.json` and is transformed into the typed,
+engine-ready form the app consumes:
+
+```text
+data/schemes.source.json      raw Document_39 master data (source of truth)
+        │
+        │  npm run build:schemes
+        ▼
+data/schemes.generated.json   normalized Scheme[] (rules, docs, channels)
+        │
+        ▼
+data/schemes.ts               typed export consumed by the app
+```
+
+`scripts/build-schemes.mjs` derives, for every scheme:
+
+- **Eligibility rules** from `eligibility_rules` (category, gender, age band, income ceiling)
+- **Document checklist** from `required_documents`, normalized to stable slugs
+- **Channel types** from `channel_partners` (SCA / PSB / RRB / NBFC-MFI / COOP / SFB)
+- **Loan terms** — funding percent, interest rate, repayment and moratorium tenure
+- **Purpose tags** used for ranking
+
+To update the database, edit `data/schemes.source.json` and re-run:
+
+```bash
+npm run build:schemes
+```
+
+The generator fails loudly on duplicate scheme ids, missing names, or schemes with
+no benefit information, so a bad dataset cannot silently reach the app.
 
 ---
 
@@ -543,23 +583,23 @@ Analytics + Ecosystem Expansion
 
 **Current Stage:** Smart India Hackathon 2026 Prototype / MVP
 
-### Planned MVP Components
+### Current MVP Components
 
-* [ ] Beneficiary onboarding
-* [ ] Scheme master database
-* [ ] Rule-based eligibility engine
+* [x] Beneficiary onboarding
+* [x] Scheme master database (41 schemes from Document_39)
+* [x] Rule-based eligibility engine
 * [ ] AI intent extraction
-* [ ] Explainable scheme recommendations
-* [ ] Scheme-aware financial calculator
-* [ ] Partner database
+* [x] Explainable scheme recommendations
+* [x] Scheme-aware financial calculator
+* [x] Partner database
 * [ ] PostGIS geospatial routing
-* [ ] Partner eligibility gates
-* [ ] Multilingual interface
+* [x] Partner eligibility gates
+* [x] Multilingual interface (en / hi)
 * [ ] Voice interaction
-* [ ] Document checklist generation
-* [ ] Application handoff
-* [ ] Application tracking
-* [ ] Admin analytics dashboard
+* [x] Document checklist generation
+* [x] Application handoff
+* [x] Application tracking
+* [x] Admin analytics dashboard
 * [ ] Audit and consent layer
 
 ---
@@ -568,61 +608,38 @@ Analytics + Ecosystem Expansion
 
 ## Prerequisites
 
-Make sure you have the following installed:
-
 * Node.js 20+
-* Python 3.11+
-* PostgreSQL 15+
-* PostGIS
 * Git
 
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/finsetu-ai.git
-cd finsetu-ai
+git clone https://github.com/<your-username>/schemify.git
+cd schemify
 ```
 
 ## Mobile App (current MVP — UI-first)
 
-The active codebase is an **Expo React Native app** running entirely on local
-mock data (no external services required). See `docs/api-contract.md` and
-`docs/integrations.md` for the backend plan.
+The active codebase is an **Expo React Native app** that runs entirely on local
+data. No API keys, backend, or external services are required to run or build it.
+See `docs/api-contract.md` and `docs/integrations.md` for the backend plan.
 
 ```bash
 npm install
-npx expo start
+npm start
 ```
 
 Then scan the QR code with the **Expo Go** app on any Android/iOS device.
 
-## Frontend (legacy web plan)
+Other useful commands:
 
 ```bash
-cd frontend
-npm install
-npm run dev
+npm run web            # run in a browser
+npm run typecheck      # TypeScript check
+npm run build:schemes  # regenerate the scheme database from Document_39
 ```
 
-## Backend
-
-```bash
-cd backend
-
-python -m venv venv
-
-# Linux/macOS
-source venv/bin/activate
-
-# Windows
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-```
-
-> Update the commands above according to the final repository structure.
+The full build specification lives in `docs/FINSETU_FULL_BUILD.md`.
 
 ---
 

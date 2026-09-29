@@ -62,6 +62,24 @@ export interface Scheme {
   effectiveFrom: string;
   version: string;
   sourceRef: string;
+
+  officialName?: string;
+  schemeCategoryLabel?: string;
+  subCategory?: string;
+  ministry?: string;
+  agency?: string;
+  status?: string;
+  benefit?: string;
+  interestNote?: string;
+  collateral?: string;
+  docDetails?: Record<string, string>;
+  conditions?: string[];
+  applicationUrl?: string;
+  applicationMode?: string;
+  directApplication?: boolean;
+  educationNote?: string;
+  lastVerified?: string;
+  isNew?: boolean;
 }
 
 export interface District {

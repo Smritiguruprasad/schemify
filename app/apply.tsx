@@ -27,7 +27,7 @@ export default function Apply() {
 
   const docs = useMemo(() => scheme?.requiredDocs ?? [], [scheme]);
   const [checked, setChecked] = useState<Record<string, boolean>>(() =>
-    Object.fromEntries(docs.map((d) => [d, d !== 'sc_certificate' && d !== 'aadhaar']))
+    Object.fromEntries(docs.map((d) => [d, d !== 'caste_certificate' && d !== 'aadhaar']))
   );
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -85,7 +85,7 @@ export default function Apply() {
               color={checked[d] ? colors.ok : colors.faint}
             />
             <Text style={[styles.docText, checked[d] && styles.docDone]}>{docLabel(d, lang)}</Text>
-            {d === 'sc_certificate' && profile.scStatus === 'pending' ? (
+            {d === 'caste_certificate' && profile.scStatus === 'pending' ? (
               <Text style={styles.pendingTag}>SC</Text>
             ) : null}
           </Pressable>

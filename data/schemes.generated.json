@@ -1,0 +1,3215 @@
+[
+  {
+    "id": "nsfdc_tls",
+    "code": "NSFDC_TLS",
+    "name": {
+      "en": "NSFDC Term Loan Scheme",
+      "hi": "NSFDC Term Loan Scheme"
+    },
+    "officialName": "Term Loan Scheme (TLS)",
+    "desc": {
+      "en": "Provides concessional term loans to Scheduled Caste individuals/entities for viable income-generating projects up to Rs 15.00 Lakhs.",
+      "hi": "Provides concessional term loans to Scheduled Caste individuals/entities for viable income-generating projects up to Rs 15.00 Lakhs."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Term Loan / Concessional Loan",
+    "subCategory": "Income Generating Activities",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 15,00,000",
+    "minCost": 0,
+    "maxAssistance": 1500000,
+    "fundingPercent": 90,
+    "interestRate": 6,
+    "interestNote": "6% p.a. for loan up to Rs 5.00 Lakhs; 8% p.a. for loan above Rs 5.00 Lakhs up to Rs 15.00 Lakhs to end beneficiary.",
+    "repaymentMonths": 120,
+    "moratoriumMonths": 12,
+    "contributionPercent": 10,
+    "collateral": "As per Channelizing Agency / Bank norm",
+    "channelTypes": [
+      "SCA",
+      "PSB",
+      "RRB",
+      "NBFC-MFI"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "project_report",
+      "aadhaar",
+      "address_proof",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate issued by competent authority",
+      "income_proof": "Income Certificate issued by competent authority",
+      "project_report": "Project Profile / Detailed Project Report (DPR)",
+      "aadhaar": "Identity Proof (Aadhar Card / Voter ID)",
+      "address_proof": "Address Proof",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Must belong to Scheduled Caste community",
+      "Income must not exceed Rs 3,00,000 p.a."
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online through Channelizing Agencies",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nsfdc.nic.in/en/term-loan-scheme | https://socialjustice.gov.in"
+  },
+  {
+    "id": "nsfdc_mcf",
+    "code": "NSFDC_MCF",
+    "name": {
+      "en": "NSFDC Micro Credit Finance",
+      "hi": "NSFDC Micro Credit Finance"
+    },
+    "officialName": "Micro Credit Finance (MCF) Scheme",
+    "desc": {
+      "en": "Provides micro-credit financial assistance to SC beneficiaries for small business activities through SHGs or individual mode up to Rs 1.40 Lakhs.",
+      "hi": "Provides micro-credit financial assistance to SC beneficiaries for small business activities through SHGs or individual mode up to Rs 1.40 Lakhs."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Microfinance",
+    "subCategory": "Micro Enterprise / Self-Employment",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 1,40,000",
+    "minCost": 0,
+    "maxAssistance": 140000,
+    "fundingPercent": 90,
+    "interestRate": 5,
+    "interestNote": "5% p.a. charged to ultimate beneficiary.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 6,
+    "contributionPercent": 5,
+    "collateral": "Hypothecation of assets created / No collateral for micro loans as per RBI microfinance norms",
+    "channelTypes": [
+      "SCA",
+      "RRB",
+      "NBFC-MFI"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "shg_membership",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card",
+      "shg_membership": "SHG details (if applying via SHG)",
+      "bank_passbook": "Bank Passbook copy"
+    },
+    "conditions": [
+      "Targeted at small micro-entrepreneurs from SC community"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online through Channelizing Agencies",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nsfdc.nic.in/en/micro-credit-finance"
+  },
+  {
+    "id": "nsfdc_msy",
+    "code": "NSFDC_MSY",
+    "name": {
+      "en": "NSFDC Mahila Samriddhi Yojana",
+      "hi": "NSFDC Mahila Samriddhi Yojana"
+    },
+    "officialName": "Mahila Samriddhi Yojana (MSY)",
+    "desc": {
+      "en": "Concessional micro-finance scheme exclusively for Scheduled Caste women entrepreneurs to start small businesses up to Rs 1.40 Lakhs.",
+      "hi": "Concessional micro-finance scheme exclusively for Scheduled Caste women entrepreneurs to start small businesses up to Rs 1.40 Lakhs."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Microfinance / Women Entrepreneurship",
+    "subCategory": "Self-Employment for Women",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 1,40,000",
+    "minCost": 0,
+    "maxAssistance": 140000,
+    "fundingPercent": 95,
+    "interestRate": 4,
+    "interestNote": "Highly concessional 4% p.a. charged to target female beneficiary.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 6,
+    "contributionPercent": 5,
+    "collateral": "Nil for micro-credit as per MFI/SCA standard terms",
+    "channelTypes": [
+      "SCA",
+      "NBFC-MFI"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "address_proof",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card / Identity Proof",
+      "address_proof": "Address Proof",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Exclusively for SC female beneficiaries or SC female SHG members"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online through SCAs",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nsfdc.nic.in/en/mahila-samriddhi-yojana"
+  },
+  {
+    "id": "nsfdc_els",
+    "code": "NSFDC_ELS",
+    "name": {
+      "en": "NSFDC Educational Loan Scheme",
+      "hi": "NSFDC Educational Loan Scheme"
+    },
+    "officialName": "Educational Loan Scheme (ELS)",
+    "desc": {
+      "en": "Provides concessional educational loans to SC students to pursue professional and technical courses in India and abroad.",
+      "hi": "Provides concessional educational loans to SC students to pursue professional and technical courses in India and abroad."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Loan",
+    "subCategory": "Higher Education Financing",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "status": "Active",
+    "purposeTags": [
+      "education",
+      "business"
+    ],
+    "benefit": "Hostel fees, books, computer, examination fees",
+    "minCost": 0,
+    "maxAssistance": 3000000,
+    "fundingPercent": 90,
+    "interestRate": 3.5,
+    "interestNote": "4% p.a. for male students; 3.5% p.a. for female students (0.5% interest rebate).",
+    "repaymentMonths": 120,
+    "moratoriumMonths": 18,
+    "contributionPercent": 10,
+    "collateral": "As per bank / channel partner rules",
+    "channelTypes": [
+      "SCA",
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "admission_proof",
+      "marksheet",
+      "fee_structure",
+      "aadhaar"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "admission_proof": "Admission Letter from Institution",
+      "marksheet": "Marksheets of qualifying examination",
+      "fee_structure": "Fee Structure document",
+      "aadhaar": "Aadhar Card / Identity Proof"
+    },
+    "conditions": [
+      "Must have secured admission in professional/technical course in recognized institution"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online via Bank / SCA",
+    "directApplication": false,
+    "educationNote": "Hostel fees, books, computer, examination fees",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nsfdc.nic.in/en/educational-loan-scheme"
+  },
+  {
+    "id": "vcf_sc",
+    "code": "VCF_SC",
+    "name": {
+      "en": "Venture Capital Fund for Scheduled Castes",
+      "hi": "Venture Capital Fund for Scheduled Castes"
+    },
+    "officialName": "Venture Capital Fund for Scheduled Castes (VCF-SC)",
+    "desc": {
+      "en": "First-of-its-kind venture capital fund to promote entrepreneurship among SCs by providing concessional debt and equity capital.",
+      "hi": "First-of-its-kind venture capital fund to promote entrepreneurship among SCs by providing concessional debt and equity capital."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Entrepreneurship / Equity / Concessional Debt",
+    "subCategory": "Venture Capital & Business Expansion",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "IFCI Venture Capital Development Fund Limited (IFCI Venture)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 15,00,00,000",
+    "minCost": 2000000,
+    "maxAssistance": 150000000,
+    "fundingPercent": 75,
+    "interestRate": 4,
+    "interestNote": "4% p.a. for female / differently-abled SC entrepreneurs; 8% p.a. for male SC entrepreneurs.",
+    "repaymentMonths": 120,
+    "moratoriumMonths": 36,
+    "contributionPercent": 25,
+    "collateral": "Assets of the company / First charge on project assets",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "business_proof",
+      "shareholding",
+      "caste_certificate",
+      "project_report",
+      "financials",
+      "kyc"
+    ],
+    "docDetails": {
+      "business_proof": "Company Incorporation / Registration documents",
+      "shareholding": "Shareholding pattern certificate showing 51%+ SC control",
+      "caste_certificate": "Caste Certificates of promoters",
+      "project_report": "Detailed Project Report (DPR) / Business Plan",
+      "financials": "Audited Financial statements (if existing entity)",
+      "kyc": "Promoters' KYCs"
+    },
+    "conditions": [
+      "Entity must have at least 51% shareholding held by SC entrepreneurs for at least 6 months prior to application",
+      "Control and management must be with SC promoters"
+    ],
+    "applicationUrl": "https://www.vcfsc.in",
+    "applicationMode": "Online portal",
+    "directApplication": true,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2015-01-16",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://www.vcfsc.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "cgssc",
+    "code": "CGSSC",
+    "name": {
+      "en": "Credit Guarantee Scheme for Scheduled Castes",
+      "hi": "Credit Guarantee Scheme for Scheduled Castes"
+    },
+    "officialName": "Credit Guarantee Scheme for Scheduled Castes (CGSSC)",
+    "desc": {
+      "en": "Provides credit guarantee coverage to Member Lending Institutions (MLIs) for extending collateral-free loans to SC entrepreneurs.",
+      "hi": "Provides credit guarantee coverage to Member Lending Institutions (MLIs) for extending collateral-free loans to SC entrepreneurs."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Credit Guarantee",
+    "subCategory": "Guarantee for Business Loans",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "IFCI Limited",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 5,00,00,000",
+    "minCost": 1500000,
+    "maxAssistance": 50000000,
+    "fundingPercent": 0,
+    "interestRate": 0,
+    "interestNote": "Interest rate is determined by the Member Lending Institution (Bank/FI).",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Collateral-free loan (Guarantee provided by IFCI to Bank)",
+    "channelTypes": [
+      "RRB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "business_proof",
+      "application_form"
+    ],
+    "docDetails": {
+      "caste_certificate": "SC Certificate of promoters",
+      "business_proof": "Company registration / Partnership deed",
+      "application_form": "Bank loan application form and documents requested by MLI"
+    },
+    "conditions": [
+      "SC promoter must hold at least 51% holding in borrowing entity",
+      "Loan must be sanctioned by an authorized Member Lending Institution (MLI)"
+    ],
+    "applicationUrl": "https://www.ifci.org.in",
+    "applicationMode": "Offline through Member Lending Institutions (MLIs)",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2015-09-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://www.ifci.org.in/cgssc | https://socialjustice.gov.in"
+  },
+  {
+    "id": "sui",
+    "code": "SUI",
+    "name": {
+      "en": "Stand-Up India Scheme",
+      "hi": "Stand-Up India Scheme"
+    },
+    "officialName": "Stand-Up India Scheme",
+    "desc": {
+      "en": "Facilitates bank loans between Rs 10 Lakhs and Rs 1 Crore to at least one SC/ST borrower and one Woman borrower per bank branch.",
+      "hi": "Facilitates bank loans between Rs 10 Lakhs and Rs 1 Crore to at least one SC/ST borrower and one Woman borrower per bank branch."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Term Loan / Entrepreneurship",
+    "subCategory": "Greenfield Enterprise Financing",
+    "ministry": "Ministry of Finance (Department of Financial Services)",
+    "agency": "SIDBI / Scheduled Commercial Banks",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 1,00,00,000",
+    "minCost": 1000000,
+    "maxAssistance": 10000000,
+    "fundingPercent": 75,
+    "interestRate": 3,
+    "interestNote": "The rate of interest shall be the lowest applicable rate of the bank for that category, not to exceed (Base Rate / MCLR + 3% + Tenor Premium).",
+    "repaymentMonths": 84,
+    "moratoriumMonths": 18,
+    "contributionPercent": 10,
+    "collateral": "Primary security of project assets / Credit Guarantee Scheme (CGFSI) option available",
+    "channelTypes": [
+      "RRB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "business_proof",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (SC/ST)",
+      "aadhaar": "Identity & Address Proof",
+      "business_proof": "Business License / Registration",
+      "project_report": "Project Report",
+      "bank_passbook": "Bank Statements & Income Tax Returns (if applicable)"
+    },
+    "conditions": [
+      "Must be a greenfield (first time) venture in manufacturing, services, agri-allied, or trading sector",
+      "In case of non-individual entities, 51% of shareholding and controlling stake must be held by SC/ST or Woman entrepreneur"
+    ],
+    "applicationUrl": "https://www.standupmitra.in",
+    "applicationMode": "Online via Stand-Up India Portal or Offline at Bank Branch",
+    "directApplication": true,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2016-04-05",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://www.standupmitra.in | https://www.myscheme.gov.in/schemes/suis"
+  },
+  {
+    "id": "pm_daksh",
+    "code": "PM_DAKSH",
+    "name": {
+      "en": "PM-DAKSH Scheme",
+      "hi": "PM-DAKSH Scheme"
+    },
+    "officialName": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH)",
+    "desc": {
+      "en": "Provides free skill training along with monthly stipend and loan linkage assistance to SC youth for employability and self-employment.",
+      "hi": "Provides free skill training along with monthly stipend and loan linkage assistance to SC youth for employability and self-employment."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Skill Development / Financial Assistance",
+    "subCategory": "Vocational Training & Stipend",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "NSFDC / NBCFDC / NSKFDC",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "Stipend of Rs 1,000 to Rs 1,500/month provided to trainees during course",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "100% free training provided by Government. Stipend provided directly via DBT.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "marksheet",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate (where applicable)",
+      "aadhaar": "Aadhar Card",
+      "marksheet": "Educational qualification proof",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Must belong to targeted SC category"
+    ],
+    "applicationUrl": "https://pmdaksh.dosje.gov.in",
+    "applicationMode": "Online portal / Mobile App",
+    "directApplication": true,
+    "educationNote": "Stipend of Rs 1,000 to Rs 1,500/month provided to trainees during course",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 45,
+        "label": {
+          "en": "Age at most 45 years",
+          "hi": "Age at most 45 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-08-07",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://pmdaksh.dosje.gov.in"
+  },
+  {
+    "id": "top_class_sc",
+    "code": "TOP_CLASS_SC",
+    "name": {
+      "en": "Top Class Education Scheme for SC Students",
+      "hi": "Top Class Education Scheme for SC Students"
+    },
+    "officialName": "Central Sector Scheme of Top Class Education for SC Students",
+    "desc": {
+      "en": "Provides full financial support to meritorious SC students for pursuing studies in notified premier institutions (IITs, IIMs, AIIMS, NITs, etc.).",
+      "hi": "Provides full financial support to meritorious SC students for pursuing studies in notified premier institutions (IITs, IIMs, AIIMS, NITs, etc.)."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Financial Assistance / Scholarship",
+    "subCategory": "Higher Education Grants",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Direct financial grant (Non-repayable scholarship/assistance).",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "admission_proof",
+      "fee_structure",
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "admission_proof": "Admission Proof in notified institute",
+      "fee_structure": "Fee Structure document",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Must have secured admission in notified top premier institutions as per ministry list"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "applicationMode": "Online through National Scholarship Portal (NSP)",
+    "directApplication": true,
+    "educationNote": "Rs 3,000/month living allowance + Rs 5,000/year books + Rs 45,000 one-time computer grant",
+    "rules": [
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 800000,
+        "label": {
+          "en": "Family income Rs 8,00,000 or less",
+          "hi": "Family income Rs 8,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://scholarships.gov.in | https://socialjustice.gov.in/schemes/33"
+  },
+  {
+    "id": "nos_sc",
+    "code": "NOS_SC",
+    "name": {
+      "en": "National Overseas Scholarship for SC Candidates",
+      "hi": "National Overseas Scholarship for SC Candidates"
+    },
+    "officialName": "Central Sector Scheme of National Overseas Scholarship for SC Candidates",
+    "desc": {
+      "en": "Provides direct financial assistance to selected SC students for pursuing Master's level courses or Ph.D. abroad.",
+      "hi": "Provides direct financial assistance to selected SC students for pursuing Master's level courses or Ph.D. abroad."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Overseas Assistance",
+    "subCategory": "Overseas Higher Education Grant",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Direct non-repayable grant provided by Government.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "marksheet",
+      "study_abroad",
+      "aadhaar"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "marksheet": "Qualifying Degree Marksheets (Min 60%)",
+      "study_abroad": "Unconditional Offer Letter from Foreign University",
+      "aadhaar": "Aadhar Card"
+    },
+    "conditions": [
+      "Must have unconditional admission offer from foreign university ranking within top 500 (QS/Times)",
+      "Age must not be more than 35 years as on 1st April of selection year"
+    ],
+    "applicationUrl": "https://nosmsje.gov.in",
+    "applicationMode": "Online portal",
+    "directApplication": true,
+    "educationNote": "USD 15,400 p.a. (USA/Other) / GBP 9,900 p.a. (UK) maintenance + contingency allowance",
+    "rules": [
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 35,
+        "label": {
+          "en": "Age at most 35 years",
+          "hi": "Age at most 35 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 800000,
+        "label": {
+          "en": "Family income Rs 8,00,000 or less",
+          "hi": "Family income Rs 8,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nosmsje.gov.in"
+  },
+  {
+    "id": "pm_ajay_ig",
+    "code": "PM_AJAY_IG",
+    "name": {
+      "en": "PM-AJAY Income Generation Scheme",
+      "hi": "PM-AJAY Income Generation Scheme"
+    },
+    "officialName": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY) - Income Generation Sub-Scheme",
+    "desc": {
+      "en": "Merged scheme providing direct capital subsidy to SC families for income-generating self-employment projects linked with bank loans.",
+      "hi": "Merged scheme providing direct capital subsidy to SC families for income-generating self-employment projects linked with bank loans."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Direct Financial Assistance / Subsidy",
+    "subCategory": "Income Generation & Livelihood",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "State Channelizing Agencies / District Rural Development Agencies",
+    "status": "Active",
+    "purposeTags": [
+      "agriculture",
+      "business"
+    ],
+    "benefit": "Up to Rs 50,000 capital subsidy",
+    "minCost": 0,
+    "maxAssistance": 500000,
+    "fundingPercent": 50,
+    "interestRate": 0,
+    "interestNote": "Subsidy component carries 0% interest; bank portion carries regular bank interest rate.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "As per bank loan terms for remaining bank loan component",
+    "channelTypes": [
+      "SCA",
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate / BPL Card",
+      "aadhaar": "Identity & Address Proof",
+      "project_report": "Project proposal",
+      "bank_passbook": "Bank passbook"
+    },
+    "conditions": [
+      "Targeted at SC households needing capital subsidy for livelihood creation"
+    ],
+    "applicationUrl": "https://socialjustice.gov.in",
+    "applicationMode": "Offline / Online through District Level Social Welfare Officer",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-12-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://socialjustice.gov.in/schemes/115"
+  },
+  {
+    "id": "nsfdc_lsy",
+    "code": "NSFDC_LSY",
+    "name": {
+      "en": "NSFDC Laghu Samriddhi Yojana",
+      "hi": "NSFDC Laghu Samriddhi Yojana"
+    },
+    "officialName": "Laghu Samriddhi Yojana (LSY)",
+    "desc": {
+      "en": "Provides concessional bridge and micro loans for SC individuals and SHGs to support small business enterprises up to Rs 5.00 Lakhs.",
+      "hi": "Provides concessional bridge and micro loans for SC individuals and SHGs to support small business enterprises up to Rs 5.00 Lakhs."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Concessional Loan / Microfinance",
+    "subCategory": "Small Business / Micro Enterprise",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 5,00,000",
+    "minCost": 0,
+    "maxAssistance": 500000,
+    "fundingPercent": 90,
+    "interestRate": 6,
+    "interestNote": "6% p.a. charged to target end beneficiary.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 6,
+    "contributionPercent": 10,
+    "collateral": "Hypothecation of assets / As per SCA terms",
+    "channelTypes": [
+      "SCA",
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card",
+      "project_report": "Project Details",
+      "bank_passbook": "Bank Passbook"
+    },
+    "conditions": [
+      "Targeted at small business operators from SC community"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online via SCAs",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-24",
+    "version": "1.0.0",
+    "isNew": false,
+    "sourceRef": "https://nsfdc.nic.in/en/laghu-samriddhi-yojana"
+  },
+  {
+    "id": "asiim",
+    "code": "ASIIM",
+    "name": {
+      "en": "Ambedkar Social Innovation and Incubation Mission",
+      "hi": "Ambedkar Social Innovation and Incubation Mission"
+    },
+    "officialName": "Ambedkar Social Innovation and Incubation Mission (ASIIM)",
+    "desc": {
+      "en": "Incubation and equity support for SC / SC Divyang students and youth with innovative ideas via Technology Business Incubators (TBIs), linked to VCF-SC.",
+      "hi": "Incubation and equity support for SC / SC Divyang students and youth with innovative ideas via Technology Business Incubators (TBIs), linked to VCF-SC."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Entrepreneurship / Equity / Incubation",
+    "subCategory": "Startup Incubation for SC Youth",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "IFCI Venture Capital Funds Limited (under VCF-SC)",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "Covers projects up to Rs 30,00,000",
+    "minCost": 0,
+    "maxAssistance": 3000000,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Rs 30 Lakhs over 3 years (Rs 10L per year) as equity; 10-year tenure; eligible for VCF-SC (20L to 15Cr) after.",
+    "repaymentMonths": 120,
+    "moratoriumMonths": 36,
+    "contributionPercent": 0,
+    "collateral": "Nil (equity instrument)",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "tbi_recommendation",
+      "project_report",
+      "kyc"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "tbi_recommendation": "TBI recommendation",
+      "project_report": "Business idea / Pitch deck",
+      "kyc": "KYC documents"
+    },
+    "conditions": [
+      "SC youth registered with empanelled TBI",
+      "Idea screened by TBI and IFCI Venture"
+    ],
+    "applicationUrl": "https://www.vcfsc.in/asiim",
+    "applicationMode": "Online via TBI and VCF-SC portal",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-09-30",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.vcfsc.in/asiim | https://www.myscheme.gov.in/schemes/asiim | https://socialjustice.gov.in"
+  },
+  {
+    "id": "free_coaching_sc",
+    "code": "FREE_COACHING_SC",
+    "name": {
+      "en": "Free Coaching Scheme for SC and OBC Students",
+      "hi": "Free Coaching Scheme for SC and OBC Students"
+    },
+    "officialName": "Free Coaching for SCs and OBCs and beneficiaries of PM CARES",
+    "desc": {
+      "en": "Free coaching for SC/OBC students for competitive examinations (UPSC, SSC, Banking, Engineering, Medical etc.) with stipend and coaching fee support.",
+      "hi": "Free coaching for SC/OBC students for competitive examinations (UPSC, SSC, Banking, Engineering, Medical etc.) with stipend and coaching fee support."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Coaching Assistance",
+    "subCategory": "Competitive Exam Coaching",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment via Empanelled Coaching Institutes",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Course fee to institute up to Rs 75,000 per candidate; stipend Rs 4000/month local / Rs 8000 outstation plus accommodation.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "marksheet",
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "marksheet": "Educational certificates",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "70% seats for SC, 30% for OBC",
+      "One-time benefit per level of competitive exam"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "applicationMode": "Online via NSP / Coaching portal",
+    "directApplication": true,
+    "educationNote": "Stipend Rs 4000 local / Rs 8000 outstation per month during coaching",
+    "rules": [
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 800000,
+        "label": {
+          "en": "Family income Rs 8,00,000 or less",
+          "hi": "Family income Rs 8,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-04-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://socialjustice.gov.in/schemes/30 | https://scholarships.gov.in"
+  },
+  {
+    "id": "nfsc",
+    "code": "NFSC",
+    "name": {
+      "en": "National Fellowship for SC Students",
+      "hi": "National Fellowship for SC Students"
+    },
+    "officialName": "National Fellowship for Scheduled Caste Students (NFSC)",
+    "desc": {
+      "en": "Fellowship for SC students pursuing M.Phil/PhD in Science, Humanities and Social Sciences in Indian universities, selected via UGC-NET.",
+      "hi": "Fellowship for SC students pursuing M.Phil/PhD in Science, Humanities and Social Sciences in Indian universities, selected via UGC-NET."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Fellowship / Research",
+    "subCategory": "Fellowship for M.Phil/PhD",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC) / UGC / NTA",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "JRF Rs 31,000 + HRA + contingency; SRF Rs 35,000 + HRA after 2 years; 5-year tenure.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "marksheet",
+      "enrollment_proof",
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "marksheet": "UGC-NET qualification certificate",
+      "enrollment_proof": "Research enrollment proof",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Must have qualified UGC-NET or Joint CSIR-UGC-NET",
+      "Enrolled in full-time M.Phil/PhD in UGC-recognized institution"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in/nfsc",
+    "applicationMode": "Online via UGC/NSFDC fellowship portal and NSP",
+    "directApplication": true,
+    "educationNote": "JRF/SRF monthly fellowship + HRA + contingency + escort/reader assistance for PwD",
+    "rules": [
+      {
+        "field": "purpose",
+        "op": "eq",
+        "value": "education",
+        "soft": true,
+        "label": {
+          "en": "Purpose is education / scholarship",
+          "hi": "Purpose is education / scholarship"
+        }
+      }
+    ],
+    "effectiveFrom": "2022-10-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://socialjustice.gov.in/schemes/29 | https://nsfdc.nic.in/nfsc | https://www.myscheme.gov.in/schemes/rgnfscc"
+  },
+  {
+    "id": "nsfdc_amy",
+    "code": "NSFDC_AMY",
+    "name": {
+      "en": "NSFDC Aajeevika Microfinance Yojana",
+      "hi": "NSFDC Aajeevika Microfinance Yojana"
+    },
+    "officialName": "Aajeevika Microfinance Yojana (AMY)",
+    "desc": {
+      "en": "Micro-credit scheme for SC beneficiaries delivered through NBFC-MFIs up to Rs 1.40 Lakhs for income-generating micro activities.",
+      "hi": "Micro-credit scheme for SC beneficiaries delivered through NBFC-MFIs up to Rs 1.40 Lakhs for income-generating micro activities."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Microfinance",
+    "subCategory": "NBFC-MFI Channel Micro Credit",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC) via NBFC-MFIs",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 1,40,000",
+    "minCost": 0,
+    "maxAssistance": 140000,
+    "fundingPercent": 90,
+    "interestRate": 6.5,
+    "interestNote": "Lending via NBFC-MFI channel; repayment in quarterly installments.",
+    "repaymentMonths": 36,
+    "moratoriumMonths": 3,
+    "contributionPercent": 5,
+    "collateral": "Nil / Hypothecation of assets created",
+    "channelTypes": [
+      "NBFC-MFI",
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "bank_passbook",
+      "shg_membership"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Passbook copy",
+      "shg_membership": "SHG/JLG details if applicable"
+    },
+    "conditions": [
+      "Must belong to Scheduled Caste community",
+      "SHG/JLG or individual via NBFC-MFI"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online through NBFC-MFIs / SCA",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://nsfdc.nic.in/scheme | https://socialjustice.gov.in"
+  },
+  {
+    "id": "nsfdc_uny",
+    "code": "NSFDC_UNY",
+    "name": {
+      "en": "NSFDC Udyam Nidhi Yojana",
+      "hi": "NSFDC Udyam Nidhi Yojana"
+    },
+    "officialName": "Udyam Nidhi Yojana (UNY)",
+    "desc": {
+      "en": "Concessional loan scheme for SC entrepreneurs for small business projects up to Rs 5.00 Lakhs via cooperative and small finance bank channels.",
+      "hi": "Concessional loan scheme for SC entrepreneurs for small business projects up to Rs 5.00 Lakhs via cooperative and small finance bank channels."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Concessional Loan / Micro Enterprise",
+    "subCategory": "Small Business via Cooperative Channels",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "National Scheduled Castes Finance and Development Corporation (NSFDC) via Cooperative Banks/Societies and Small Finance Banks",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 5,00,000",
+    "minCost": 0,
+    "maxAssistance": 500000,
+    "fundingPercent": 90,
+    "interestRate": 6,
+    "interestNote": "90% up to Rs 4.50L funded; rate varies by channel.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 6,
+    "contributionPercent": 10,
+    "collateral": "Hypothecation of assets / As per channel partner norms",
+    "channelTypes": [
+      "COOP",
+      "SFB",
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card",
+      "project_report": "Project Details",
+      "bank_passbook": "Bank Passbook"
+    },
+    "conditions": [
+      "Must belong to Scheduled Caste community"
+    ],
+    "applicationUrl": "https://nsfdc.nic.in",
+    "applicationMode": "Offline / Online via SCAs / Coop Banks",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 300000,
+        "label": {
+          "en": "Family income Rs 3,00,000 or less",
+          "hi": "Family income Rs 3,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-04-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://nsfdc.nic.in/scheme | https://nsfdc.nic.in"
+  },
+  {
+    "id": "pmegp",
+    "code": "PMEGP",
+    "name": {
+      "en": "Prime Minister Employment Generation Programme",
+      "hi": "Prime Minister Employment Generation Programme"
+    },
+    "officialName": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "desc": {
+      "en": "Credit-linked subsidy scheme for generation of employment through establishment of micro enterprises in non-farm sector. SC is Special Category with higher subsidy.",
+      "hi": "Credit-linked subsidy scheme for generation of employment through establishment of micro enterprises in non-farm sector. SC is Special Category with higher subsidy."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Credit Linked Subsidy / Entrepreneurship",
+    "subCategory": "Micro Enterprise Creation",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "agency": "Khadi and Village Industries Commission (KVIC) via KVIB/DIC and Banks",
+    "status": "Active",
+    "purposeTags": [
+      "skill",
+      "business"
+    ],
+    "benefit": "35% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 5000000,
+    "fundingPercent": 35,
+    "interestRate": 0,
+    "interestNote": "Special Category (SC/ST/Women etc): 25% urban / 35% rural subsidy with 5% beneficiary contribution. General: 15% urban / 25% rural.",
+    "repaymentMonths": 84,
+    "moratoriumMonths": 6,
+    "contributionPercent": 5,
+    "collateral": "CGTMSE coverage for collateral-free up to Rs 10L; bank norm beyond",
+    "channelTypes": [
+      "PSB",
+      "RRB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "project_report",
+      "marksheet",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (for SC claim)",
+      "aadhaar": "Aadhar Card",
+      "project_report": "Project Report",
+      "marksheet": "Education proof if applicable",
+      "bank_passbook": "Bank account details"
+    },
+    "conditions": [
+      "New micro enterprise only (non-farm)",
+      "SC category gets Special Category subsidy benefit"
+    ],
+    "applicationUrl": "https://kviconline.gov.in/pmegpeportal",
+    "applicationMode": "Online via KVIC PMEGP portal",
+    "directApplication": true,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2008-09-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.myscheme.gov.in/schemes/pmegp | https://kviconline.gov.in/pmegpeportal"
+  },
+  {
+    "id": "pmkvy_sc",
+    "code": "PMKVY_SC",
+    "name": {
+      "en": "Pradhan Mantri Kaushal Vikas Yojana",
+      "hi": "Pradhan Mantri Kaushal Vikas Yojana"
+    },
+    "officialName": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY 4.0)",
+    "desc": {
+      "en": "Flagship skill development scheme providing free short-term training, RPL certification and placement support. SC candidates are priority.",
+      "hi": "Flagship skill development scheme providing free short-term training, RPL certification and placement support. SC candidates are priority."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Skill Development / Financial Assistance",
+    "subCategory": "Short-Term Training and Recognition of Prior Learning",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "agency": "National Skill Development Corporation (NSDC) via Skill India / Training Partners",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "100% free training; reward up to Rs 8000 on certification via DBT; post-training support and loan linkage.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "aadhaar",
+      "bank_passbook",
+      "caste_certificate",
+      "marksheet"
+    ],
+    "docDetails": {
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details",
+      "caste_certificate": "Caste Certificate for SC priority",
+      "marksheet": "Education proof if required for course"
+    },
+    "conditions": [
+      "Priority to SC/ST and women",
+      "Not already trained under same job role"
+    ],
+    "applicationUrl": "https://www.pmkvydashboard.msde.gov.in",
+    "applicationMode": "Online via Skill India portal / Mobile app",
+    "directApplication": true,
+    "educationNote": "Reward money up to Rs 8000 and placement assistance",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 15,
+        "label": {
+          "en": "Age at least 15 years",
+          "hi": "Age at least 15 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 45,
+        "label": {
+          "en": "Age at most 45 years",
+          "hi": "Age at most 45 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2023-01-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.pmkvydashboard.msde.gov.in | https://www.skillindiadigital.gov.in | https://www.myscheme.gov.in/schemes/pmkvy"
+  },
+  {
+    "id": "pmmy",
+    "code": "PMMY",
+    "name": {
+      "en": "Pradhan Mantri MUDRA Yojana",
+      "hi": "Pradhan Mantri MUDRA Yojana"
+    },
+    "officialName": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "desc": {
+      "en": "Collateral-free micro credit for non-farm income generating activities. SC entrepreneurs are priority segment.",
+      "hi": "Collateral-free micro credit for non-farm income generating activities. SC entrepreneurs are priority segment."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Micro Credit / Entrepreneurship",
+    "subCategory": "Non-farm Micro Enterprise Finance",
+    "ministry": "Ministry of Finance (Department of Financial Services)",
+    "agency": "MUDRA Ltd / Scheduled Commercial Banks / RRBs / NBFCs / MFIs",
+    "status": "Active",
+    "purposeTags": [
+      "agriculture",
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 20,00,000",
+    "minCost": 0,
+    "maxAssistance": 2000000,
+    "fundingPercent": 0,
+    "interestRate": 8,
+    "interestNote": "Categories: Shishu up to 50K, Kishor 50K-5L, Tarun 5L-10L, Tarun Plus 10L-20L (from 2024). Collateral-free.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Collateral-free (CGTMSE/CGFMU coverage)",
+    "channelTypes": [
+      "RRB",
+      "NBFC-MFI"
+    ],
+    "requiredDocs": [
+      "aadhaar",
+      "caste_certificate",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "aadhaar": "Identity and Address Proof",
+      "caste_certificate": "Caste Certificate if claiming SC benefit",
+      "project_report": "Business proof / Project details",
+      "bank_passbook": "Bank account details"
+    },
+    "conditions": [
+      "Non-farm income generating activity (manufacturing, trading, services, allied agriculture)"
+    ],
+    "applicationUrl": "https://www.mudra.org.in",
+    "applicationMode": "Offline at Bank branch / Online via Udyamimitra / JanSamarth",
+    "directApplication": true,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 65,
+        "label": {
+          "en": "Age at most 65 years",
+          "hi": "Age at most 65 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2015-04-08",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.mudra.org.in | https://www.financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+  },
+  {
+    "id": "pms_sc",
+    "code": "PMS_SC",
+    "name": {
+      "en": "Post Matric Scholarship for SC Students",
+      "hi": "Post Matric Scholarship for SC Students"
+    },
+    "officialName": "Centrally Sponsored Scheme of Post Matric Scholarships to Students Belonging to Scheduled Castes for Studies in India",
+    "desc": {
+      "en": "Scholarship for SC students studying at post-matriculation or post-secondary stage (Class 11 to PhD) to cover fees and maintenance.",
+      "hi": "Scholarship for SC students studying at post-matriculation or post-secondary stage (Class 11 to PhD) to cover fees and maintenance."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Financial Assistance / Scholarship",
+    "subCategory": "Post-Matric Scholarship",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment via State Govts/UTs and National Scholarship Portal",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Non-repayable scholarship disbursed via DBT.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB",
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "marksheet",
+      "fee_receipt",
+      "aadhaar",
+      "bank_passbook",
+      "domicile"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "marksheet": "Previous year marksheet",
+      "fee_receipt": "Admission / Fee receipt",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details",
+      "domicile": "Domicile Certificate"
+    },
+    "conditions": [
+      "SC student enrolled in recognized post-matric institution in India",
+      "Not receiving any other centrally funded scholarship for same course"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "applicationMode": "Online through National Scholarship Portal (NSP)",
+    "directApplication": true,
+    "educationNote": "Maintenance allowance Group I to IV: Hosteller Rs 1200-750/month, Day scholar Rs 550-300/month (group wise) + thesis allowance etc.",
+    "rules": [
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 250000,
+        "label": {
+          "en": "Family income Rs 2,50,000 or less",
+          "hi": "Family income Rs 2,50,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2021-03-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://socialjustice.gov.in/schemes/25 | https://scholarships.gov.in | https://www.myscheme.gov.in/schemes/pmsfss"
+  },
+  {
+    "id": "pre_matric_sc",
+    "code": "PRE_MATRIC_SC",
+    "name": {
+      "en": "Pre-Matric Scholarship for SC Students",
+      "hi": "Pre-Matric Scholarship for SC Students"
+    },
+    "officialName": "Pre-Matric Scholarship Scheme for Scheduled Castes and Others",
+    "desc": {
+      "en": "Pre-matric scholarship for SC students studying in classes IX and X, plus component for children of persons engaged in hazardous cleaning/manual scavenging.",
+      "hi": "Pre-matric scholarship for SC students studying in classes IX and X, plus component for children of persons engaged in hazardous cleaning/manual scavenging."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education Financial Assistance / Scholarship",
+    "subCategory": "Pre-Matric Scholarship (Class IX-X)",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment via State Govts/UTs",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Annual academic allowance: Rs 3500 day scholar / Rs 7000 hosteller (Component 1). Component 2: Rs 8000 for Class III-X.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "admission_proof",
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "admission_proof": "School admission proof",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details (student/parent)"
+    },
+    "conditions": [
+      "SC student in Class IX or X in recognized school",
+      "Component 2: children of persons in hazardous cleaning/waste picking/manual scavenging (no income ceiling, Class I-X)"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "applicationMode": "Online via National Scholarship Portal / State portal",
+    "directApplication": true,
+    "educationNote": "Consolidated academic allowance as above, disbursed annually via DBT",
+    "rules": [
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 250000,
+        "label": {
+          "en": "Family income Rs 2,50,000 or less",
+          "hi": "Family income Rs 2,50,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2022-04-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://socialjustice.gov.in/schemes/23 | https://scholarships.gov.in"
+  },
+  {
+    "id": "sclcss",
+    "code": "SCLCSS",
+    "name": {
+      "en": "Special Credit Linked Capital Subsidy Scheme for SC/ST",
+      "hi": "Special Credit Linked Capital Subsidy Scheme for SC/ST"
+    },
+    "officialName": "Special Credit Linked Capital Subsidy Scheme (SCLCSS)",
+    "desc": {
+      "en": "Upfront capital subsidy for SC/ST micro and small enterprises for purchase of plant, machinery and technology upgradation via institutional term loan.",
+      "hi": "Upfront capital subsidy for SC/ST micro and small enterprises for purchase of plant, machinery and technology upgradation via institutional term loan."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Capital Subsidy / Technology Upgradation",
+    "subCategory": "MSE Technology Upgradation",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "agency": "National SC-ST Hub (NSSH) via NSIC / Nodal Banks (SIDBI/NABARD)",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Up to Rs 25,00,000 capital subsidy",
+    "minCost": 0,
+    "maxAssistance": 10000000,
+    "fundingPercent": 25,
+    "interestRate": 0,
+    "interestNote": "25% upfront capital subsidy on institutional term loan up to Rs 1.00 Cr (max Rs 25L). Remainder at bank rate.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 10,
+    "collateral": "As per bank term loan norms",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "business_proof",
+      "loan_sanction",
+      "quotation",
+      "kyc"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (SC/ST)",
+      "business_proof": "Udyam Registration Certificate",
+      "loan_sanction": "Term loan sanction letter",
+      "quotation": "Quotations for machinery",
+      "kyc": "KYC documents"
+    },
+    "conditions": [
+      "Enterprise must be registered as MSE with Udyam",
+      "Proprietor must be SC/ST or 51% shareholding held by SC/ST",
+      "Term loan sanctioned by eligible bank/FI"
+    ],
+    "applicationUrl": "https://sclcss.msme.gov.in",
+    "applicationMode": "Online via SCLCSS portal and nodal banks",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2019-01-01",
+    "lastVerified": "2026-08-29",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://sclcss.msme.gov.in | https://scsthub.in/content/special-credit-linked-capital-subsidy-scheme-sclcss | https://www.nsic.co.in/Schemes/NSSH"
+  },
+  {
+    "id": "nssh_blpre",
+    "code": "NSSH_BLPRE",
+    "name": {
+      "en": "National SC-ST Hub: Bank Loan Processing Reimbursement",
+      "hi": "National SC-ST Hub: Bank Loan Processing Reimbursement"
+    },
+    "officialName": "Bank Loan Processing Reimbursement Scheme (NSSH)",
+    "desc": {
+      "en": "Reimbursement of 80% or Rs 1,00,000 (whichever less) on bank loan processing charges paid by SC/ST MSEs for business loans.",
+      "hi": "Reimbursement of 80% or Rs 1,00,000 (whichever less) on bank loan processing charges paid by SC/ST MSEs for business loans."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Business / Processing Fee Reimbursement",
+    "subCategory": "SC/ST MSE Loan Processing",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "agency": "National SC-ST Hub (NSSH) / NSIC",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Up to Rs 1,00,000 capital subsidy",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 80,
+    "interestRate": 0,
+    "interestNote": "80% or Rs 1,00,000 (excl. GST), whichever is less, per financial year.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 20,
+    "collateral": "As per bank loan norms",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "business_proof",
+      "fee_receipt",
+      "kyc"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (SC/ST)",
+      "business_proof": "Udyam Registration Certificate",
+      "fee_receipt": "Bank Loan Processing Fee Receipt",
+      "kyc": "KYC documents"
+    },
+    "conditions": [
+      "Must be registered as MSE with Udyam",
+      "SC/ST entrepreneur with loan from bank/FI"
+    ],
+    "applicationUrl": "https://www.scsthub.in",
+    "applicationMode": "Offline through Nodal Banks / NSSH",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2016-10-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.scsthub.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "cegssc",
+    "code": "CEGSSC",
+    "name": {
+      "en": "Credit Enhancement Guarantee Scheme for SCs",
+      "hi": "Credit Enhancement Guarantee Scheme for SCs"
+    },
+    "officialName": "Credit Enhancement Guarantee Scheme for Scheduled Castes (CEGSSC)",
+    "desc": {
+      "en": "Provides credit enhancement guarantee coverage to Member Lending Institutions for extending collateral-free loans to SC entrepreneurs beyond the limits covered under CGSSC.",
+      "hi": "Provides credit enhancement guarantee coverage to Member Lending Institutions for extending collateral-free loans to SC entrepreneurs beyond the limits covered under CGSSC."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Business / Credit Enhancement Guarantee",
+    "subCategory": "Guarantee for Business Loans",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "IFCI Limited",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 5,00,00,000",
+    "minCost": 1500000,
+    "maxAssistance": 50000000,
+    "fundingPercent": 0,
+    "interestRate": 0,
+    "interestNote": "Interest rate determined by the Member Lending Institution.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Collateral-free (Guarantee provided by IFCI to Bank)",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "business_proof",
+      "application_form"
+    ],
+    "docDetails": {
+      "caste_certificate": "SC Certificate of promoters",
+      "business_proof": "Company registration / Partnership deed",
+      "application_form": "Bank loan application form"
+    },
+    "conditions": [
+      "SC promoter must hold at least 51% holding",
+      "Loan must be sanctioned by authorized MLI"
+    ],
+    "applicationUrl": "https://www.ifcicegssc.in",
+    "applicationMode": "Offline through Member Lending Institutions",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2015-09-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.ifcicegssc.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "smile",
+    "code": "SMILE",
+    "name": {
+      "en": "Support for Marginalized Individuals for Livelihood and Enterprise",
+      "hi": "Support for Marginalized Individuals for Livelihood and Enterprise"
+    },
+    "officialName": "SMILE Scheme",
+    "desc": {
+      "en": "Scheme for economic empowerment of marginalized groups including SCs through livelihood and enterprise support.",
+      "hi": "Scheme for economic empowerment of marginalized groups including SCs through livelihood and enterprise support."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Business / Livelihood Assistance",
+    "subCategory": "Targeted Livelihood and Enterprise Support",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Assistance as per scheme guidelines",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "As per scheme guidelines for marginalized sections.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "As per scheme",
+    "channelTypes": [
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "income_proof"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "aadhaar": "Identity Proof",
+      "income_proof": "Income Certificate"
+    },
+    "conditions": [
+      "Belong to marginalized section"
+    ],
+    "applicationUrl": "https://smile-b.dosje.gov.in",
+    "applicationMode": "Offline through District Social Welfare Office",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://smile-b.dosje.gov.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "seed",
+    "code": "SEED",
+    "name": {
+      "en": "Scheme for Economic Empowerment of DNTs",
+      "hi": "Scheme for Economic Empowerment of DNTs"
+    },
+    "officialName": "Scheme for Economic Empowerment of De-notified Tribes (SEED)",
+    "desc": {
+      "en": "Economic empowerment scheme for De-notified Tribes (DNTs) to provide financial assistance and skill development for income generation.",
+      "hi": "Economic empowerment scheme for De-notified Tribes (DNTs) to provide financial assistance and skill development for income generation."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Business / DNT Empowerment",
+    "subCategory": "Economic Empowerment of DNT Communities",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment",
+    "status": "Active",
+    "purposeTags": [
+      "skill",
+      "business"
+    ],
+    "benefit": "Assistance as per scheme guidelines",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "As per scheme guidelines for DNT communities.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "As per scheme",
+    "channelTypes": [
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "income_proof"
+    ],
+    "docDetails": {
+      "caste_certificate": "DNT Community Certificate",
+      "aadhaar": "Identity Proof",
+      "income_proof": "Income Certificate"
+    },
+    "conditions": [
+      "Belong to DNT community"
+    ],
+    "applicationUrl": "https://dwbdnc.dosje.gov.in",
+    "applicationMode": "Offline through District Social Welfare Office",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "scStatus",
+        "op": "eq",
+        "value": "not_available",
+        "label": {
+          "en": "Not open to SC applicants (DNT only)",
+          "hi": "Not open to SC applicants (DNT only)"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://dwbdnc.dosje.gov.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "stw_ent_2025",
+    "code": "STW_ENT_2025",
+    "name": {
+      "en": "SC/ST Women Entrepreneurs Scheme",
+      "hi": "SC/ST Women Entrepreneurs Scheme"
+    },
+    "officialName": "New Scheme for Women, SC and ST First-Time Entrepreneurs",
+    "desc": {
+      "en": "Term loans up to Rs 2 crore for 5 lakh first-time women, SC, and ST entrepreneurs over 5 years, building on lessons from Stand-Up India Scheme.",
+      "hi": "Term loans up to Rs 2 crore for 5 lakh first-time women, SC, and ST entrepreneurs over 5 years, building on lessons from Stand-Up India Scheme."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Business / Women Entrepreneurship",
+    "subCategory": "First-Time Women/SC/ST Entrepreneur Financing",
+    "ministry": "Ministry of Finance (Department of Financial Services)",
+    "agency": "Scheduled Commercial Banks / SIDBI",
+    "status": "Active (Announced)",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 2,00,00,000",
+    "minCost": 0,
+    "maxAssistance": 20000000,
+    "fundingPercent": 75,
+    "interestRate": 0,
+    "interestNote": "Term loan up to Rs 2 crore. Credit guarantee cover up to Rs 20 crore.",
+    "repaymentMonths": 84,
+    "moratoriumMonths": 18,
+    "contributionPercent": 10,
+    "collateral": "CGTMSE or collateral as per bank norm",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "pan_card",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (SC/ST)",
+      "aadhaar": "Aadhar Card",
+      "pan_card": "PAN Card",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Must be first-time entrepreneur",
+      "Greenfield venture in manufacturing/services/trading/agri-allied",
+      "Women, SC or ST category"
+    ],
+    "applicationUrl": "https://jansamarth.in",
+    "applicationMode": "Online via Jansamarth Portal",
+    "directApplication": true,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2025-02-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://jansamarth.in | https://www.pib.gov.in/PressReleasePage.aspx?PRID=2114502"
+  },
+  {
+    "id": "pm_usp",
+    "code": "PM_USP",
+    "name": {
+      "en": "Pradhan Mantri Uchchatar Shiksha Protsahan",
+      "hi": "Pradhan Mantri Uchchatar Shiksha Protsahan"
+    },
+    "officialName": "PM-USP (Pradhan Mantri Uchchatar Shiksha Protsahan)",
+    "desc": {
+      "en": "Scheme to improve quality of higher education by providing grants to institutions and promoting research and innovation.",
+      "hi": "Scheme to improve quality of higher education by providing grants to institutions and promoting research and innovation."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education / Higher Education Quality",
+    "subCategory": "Higher Education Quality Improvement",
+    "ministry": "Ministry of Education",
+    "agency": "University Grants Commission (UGC)",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Direct grant to institutions for quality improvement.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "business_proof"
+    ],
+    "docDetails": {
+      "business_proof": "Institution recognition certificate"
+    },
+    "conditions": [
+      "Institution must be UGC recognized"
+    ],
+    "applicationUrl": "https://www.myscheme.gov.in/schemes/csss-cus",
+    "applicationMode": "Online via UGC portal",
+    "directApplication": false,
+    "educationNote": "N/A",
+    "rules": [
+      {
+        "field": "purpose",
+        "op": "eq",
+        "value": "education",
+        "soft": true,
+        "label": {
+          "en": "Purpose is education / scholarship",
+          "hi": "Purpose is education / scholarship"
+        }
+      }
+    ],
+    "effectiveFrom": "2015-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.myscheme.gov.in/schemes/csss-cus | https://www.ugc.ac.in"
+  },
+  {
+    "id": "pmcares",
+    "code": "PMCARES",
+    "name": {
+      "en": "Scholarship for PM CARES Children",
+      "hi": "Scholarship for PM CARES Children"
+    },
+    "officialName": "Scholarship for Children of PM CARES Beneficiaries",
+    "desc": {
+      "en": "Scholarship for children of PM CARES beneficiaries to pursue professional courses including medical, engineering, and management.",
+      "hi": "Scholarship for children of PM CARES beneficiaries to pursue professional courses including medical, engineering, and management."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education / Scholarship",
+    "subCategory": "PM CARES Children Scholarship",
+    "ministry": "Ministry of Education / Ministry of Social Justice and Empowerment",
+    "agency": "Department of Higher Education",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Non-repayable scholarship.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "pmcares_proof",
+      "caste_certificate",
+      "admission_proof",
+      "income_proof",
+      "aadhaar"
+    ],
+    "docDetails": {
+      "pmcares_proof": "PM CARES beneficiary proof",
+      "caste_certificate": "Caste Certificate",
+      "admission_proof": "Admission Letter",
+      "income_proof": "Income Certificate",
+      "aadhaar": "Aadhar Card"
+    },
+    "conditions": [
+      "Must be child of PM CARES beneficiary"
+    ],
+    "applicationUrl": "https://pmcaresforchildren.in",
+    "applicationMode": "Online via PM CARES portal / NSP",
+    "directApplication": true,
+    "educationNote": "Quarterly scholarship",
+    "rules": [
+      {
+        "field": "purpose",
+        "op": "eq",
+        "value": "education",
+        "soft": true,
+        "label": {
+          "en": "Purpose is education / scholarship",
+          "hi": "Purpose is education / scholarship"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://pmcaresforchildren.in | https://scholarships.gov.in"
+  },
+  {
+    "id": "pm_yasasvi",
+    "code": "PM_YASASVI",
+    "name": {
+      "en": "PM Young Achievers Scholarship Award Scheme (PM-YASASVI)",
+      "hi": "PM Young Achievers Scholarship Award Scheme (PM-YASASVI)"
+    },
+    "officialName": "PM Young Achievers Scholarship Award Scheme for Vibrant India",
+    "desc": {
+      "en": "Scholarship for young achievers from OBC and other categories pursuing studies in premier institutions.",
+      "hi": "Scholarship for young achievers from OBC and other categories pursuing studies in premier institutions."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Education / Scholarship",
+    "subCategory": "Young Achievers Scholarship",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "NTA (National Testing Agency)",
+    "status": "Active",
+    "purposeTags": [
+      "education"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Non-repayable scholarship to young achievers.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "admission_proof",
+      "aadhaar",
+      "achievement_cert"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "income_proof": "Income Certificate",
+      "admission_proof": "Admission proof",
+      "aadhaar": "Aadhar Card",
+      "achievement_cert": "Achievement certificates"
+    },
+    "conditions": [
+      "Young achiever from OBC and other categories"
+    ],
+    "applicationUrl": "https://yet.nta.ac.in",
+    "applicationMode": "Online via NTA portal",
+    "directApplication": true,
+    "educationNote": "Monthly scholarship",
+    "rules": [
+      {
+        "field": "scStatus",
+        "op": "eq",
+        "value": "not_available",
+        "label": {
+          "en": "Not open to SC applicants (OBC, General only)",
+          "hi": "Not open to SC applicants (OBC, General only)"
+        }
+      },
+      {
+        "field": "annualIncome",
+        "op": "lte",
+        "value": 800000,
+        "label": {
+          "en": "Family income Rs 8,00,000 or less",
+          "hi": "Family income Rs 8,00,000 or less"
+        }
+      }
+    ],
+    "effectiveFrom": "2022-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://yet.nta.ac.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "pm_naps",
+    "code": "PM_NAPS",
+    "name": {
+      "en": "Pradhan Mantri National Apprenticeship Promotion Scheme",
+      "hi": "Pradhan Mantri National Apprenticeship Promotion Scheme"
+    },
+    "officialName": "PM-NAPS (Pradhan Mantri National Apprenticeship Promotion Scheme)",
+    "desc": {
+      "en": "Scheme to promote apprenticeship training by providing incentives to employers for engaging apprentices. SC candidates are prioritized.",
+      "hi": "Scheme to promote apprenticeship training by providing incentives to employers for engaging apprentices. SC candidates are prioritized."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Skill Training / Apprenticeship",
+    "subCategory": "Apprenticeship Training",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "agency": "National Apprenticeship Promotion Scheme Division",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "25% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 25,
+    "interestRate": 0,
+    "interestNote": "25% of stipend (up to Rs 1,500/month) provided via DBT.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "aadhaar",
+      "bank_passbook",
+      "apprenticeship_agreement"
+    ],
+    "docDetails": {
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details",
+      "apprenticeship_agreement": "Apprenticeship agreement"
+    },
+    "conditions": [
+      "Engaged in approved apprenticeship"
+    ],
+    "applicationUrl": "https://www.naps.gov.in",
+    "applicationMode": "Online via National Apprenticeship Portal",
+    "directApplication": true,
+    "educationNote": "Apprentice stipend (25% Govt contribution)",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 14,
+        "label": {
+          "en": "Age at least 14 years",
+          "hi": "Age at least 14 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 35,
+        "label": {
+          "en": "Age at most 35 years",
+          "hi": "Age at most 35 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2016-04-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.myscheme.gov.in | https://naps.gov.in"
+  },
+  {
+    "id": "jss",
+    "code": "JSS",
+    "name": {
+      "en": "Jan Shikshan Sansthan",
+      "hi": "Jan Shikshan Sansthan"
+    },
+    "officialName": "Jan Shikshan Sansthan (JSS)",
+    "desc": {
+      "en": "Community-centric skilling initiative providing flexible, affordable doorstep vocational training for women, rural youth, SC/ST/OBC and marginalized groups.",
+      "hi": "Community-centric skilling initiative providing flexible, affordable doorstep vocational training for women, rural youth, SC/ST/OBC and marginalized groups."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Skill Training / Community Education",
+    "subCategory": "Community-Based Doorstep Training",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "agency": "Jan Shikshan Sansthan (Literacy) Institutes",
+    "status": "Active",
+    "purposeTags": [
+      "education",
+      "skill",
+      "business"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Low-cost or free doorstep training.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "aadhaar",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Marginalized community or women/rural youth"
+    ],
+    "applicationUrl": "https://www.myscheme.gov.in",
+    "applicationMode": "Offline at JSS Institute",
+    "directApplication": true,
+    "educationNote": "N/A",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 15,
+        "label": {
+          "en": "Age at least 15 years",
+          "hi": "Age at least 15 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 45,
+        "label": {
+          "en": "Age at most 45 years",
+          "hi": "Age at most 45 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.myscheme.gov.in | https://www.skillindia.gov.in"
+  },
+  {
+    "id": "pmsetu",
+    "code": "PMSETU",
+    "name": {
+      "en": "PM SETU (Skilling and Employability Transformation through Upgraded ITIs)",
+      "hi": "PM SETU (Skilling and Employability Transformation through Upgraded ITIs)"
+    },
+    "officialName": "PM-SETU Scheme",
+    "desc": {
+      "en": "Scheme to upgrade 1000 Government ITIs with modern infrastructure, industry-aligned courses and industry-led governance for improved employability.",
+      "hi": "Scheme to upgrade 1000 Government ITIs with modern infrastructure, industry-aligned courses and industry-led governance for improved employability."
+    },
+    "category": "education",
+    "schemeCategoryLabel": "Skill Training / Infrastructure",
+    "subCategory": "ITI Modernization and Upskilling",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "agency": "Directorate General of Training (DGT)",
+    "status": "Active",
+    "purposeTags": [
+      "education",
+      "skill"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "100% central funding for ITI upgradation.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "aadhaar",
+      "admission_proof",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "aadhaar": "Aadhar Card",
+      "admission_proof": "ITI admission proof",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "ITI aspirant"
+    ],
+    "applicationUrl": "https://www.pmindia.gov.in",
+    "applicationMode": "Offline at ITI / Online via DGT portal",
+    "directApplication": true,
+    "educationNote": "N/A",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 14,
+        "label": {
+          "en": "Age at least 14 years",
+          "hi": "Age at least 14 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 45,
+        "label": {
+          "en": "Age at most 45 years",
+          "hi": "Age at most 45 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2024-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.pmindia.gov.in | https://www.myscheme.gov.in"
+  },
+  {
+    "id": "namaste",
+    "code": "NAMASTE",
+    "name": {
+      "en": "National Action for Mechanised Sanitation Ecosystem (NAMASTE)",
+      "hi": "National Action for Mechanised Sanitation Ecosystem (NAMASTE)"
+    },
+    "officialName": "NAMASTE Scheme",
+    "desc": {
+      "en": "Scheme for skill development and mechanisation of sanitation work to improve working conditions of sanitation workers including waste pickers from SC/OBC/DNT communities.",
+      "hi": "Scheme for skill development and mechanisation of sanitation work to improve working conditions of sanitation workers including waste pickers from SC/OBC/DNT communities."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Skill Training / Sanitation",
+    "subCategory": "Mechanised Sanitation Skilling",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "agency": "Department of Social Justice and Empowerment / NSKFDC",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "100% capital subsidy on project cost",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "100% free training for sanitation workers.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "employment_proof",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate (SC/Safai Karamchari)",
+      "aadhaar": "Aadhar Card",
+      "employment_proof": "Employment proof in sanitation",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "Currently employed in sanitation"
+    ],
+    "applicationUrl": "https://bmsnamaste.dosje.gov.in",
+    "applicationMode": "Offline through NSKFDC / District Office",
+    "directApplication": false,
+    "educationNote": "Stipend during training",
+    "rules": [
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 60,
+        "label": {
+          "en": "Age at most 60 years",
+          "hi": "Age at most 60 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://bmsnamaste.dosje.gov.in | https://socialjustice.gov.in"
+  },
+  {
+    "id": "pmjanman",
+    "code": "PMJANMAN",
+    "name": {
+      "en": "Pradhan Mantri Janjati Adivasi Nyaya Maha AbhiyaN",
+      "hi": "Pradhan Mantri Janjati Adivasi Nyaya Maha AbhiyaN"
+    },
+    "officialName": "PM-JANMAN (Tribal Holistic Development)",
+    "desc": {
+      "en": "Holistic development scheme for Particularly Vulnerable Tribal Groups (PVTGs) including skill development, health, education and livelihood.",
+      "hi": "Holistic development scheme for Particularly Vulnerable Tribal Groups (PVTGs) including skill development, health, education and livelihood."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Skill Training / Tribal Development",
+    "subCategory": "Tribal Holistic Development",
+    "ministry": "Ministry of Tribal Affairs",
+    "agency": "Ministry of Tribal Affairs via Tribal Councils",
+    "status": "Active",
+    "purposeTags": [
+      "skill",
+      "business"
+    ],
+    "benefit": "Assistance as per scheme guidelines",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Comprehensive scheme with multiple components.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "As per scheme",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "income_proof"
+    ],
+    "docDetails": {
+      "caste_certificate": "Tribe Certificate (PVTG)",
+      "aadhaar": "Aadhar Card",
+      "income_proof": "Income Certificate"
+    },
+    "conditions": [
+      "Belong to PVTG area/community"
+    ],
+    "applicationUrl": "https://tribal.nic.in",
+    "applicationMode": "Offline through Tribal Council",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "scStatus",
+        "op": "eq",
+        "value": "not_available",
+        "label": {
+          "en": "Not open to SC applicants (ST, PVTG only)",
+          "hi": "Not open to SC applicants (ST, PVTG only)"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2024-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://tribal.nic.in | https://www.myscheme.gov.in"
+  },
+  {
+    "id": "swarnima",
+    "code": "SWARNIMA",
+    "name": {
+      "en": "New Swarnima Scheme for Women",
+      "hi": "New Swarnima Scheme for Women"
+    },
+    "officialName": "New Swarnima Scheme for Women Entrepreneurs",
+    "desc": {
+      "en": "Scheme providing term loans to women entrepreneurs from backward classes to promote self-employment and financial independence.",
+      "hi": "Scheme providing term loans to women entrepreneurs from backward classes to promote self-employment and financial independence."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Women / Loan",
+    "subCategory": "Women Entrepreneurship Loan",
+    "ministry": "Ministry of Women and Child Development",
+    "agency": "National Commission for Women (NCW) / Banks",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Assistance as per scheme guidelines",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 50,
+    "interestRate": 0,
+    "interestNote": "Concessional interest rate for women entrepreneurs.",
+    "repaymentMonths": 60,
+    "moratoriumMonths": 6,
+    "contributionPercent": 10,
+    "collateral": "As per bank norm",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "income_proof",
+      "bank_passbook",
+      "project_report"
+    ],
+    "docDetails": {
+      "caste_certificate": "Caste Certificate",
+      "aadhaar": "Identity Proof",
+      "income_proof": "Income Certificate",
+      "bank_passbook": "Bank Account details",
+      "project_report": "Business plan"
+    },
+    "conditions": [
+      "Women entrepreneur"
+    ],
+    "applicationUrl": "https://ncw.gov.in",
+    "applicationMode": "Offline through Bank / NCW",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://ncw.gov.in | https://www.ncw.gov.in/publications/women-centric-schemes-by-different-ministries-of-government-of-india-goi"
+  },
+  {
+    "id": "nairoshni",
+    "code": "NAIROSHNI",
+    "name": {
+      "en": "Nai Roshni Scheme for Minority Women",
+      "hi": "Nai Roshni Scheme for Minority Women"
+    },
+    "officialName": "Nai Roshni - Leadership Training for Minority Women",
+    "desc": {
+      "en": "Scheme to empower women from minority communities through leadership training and financial support for economic independence.",
+      "hi": "Scheme to empower women from minority communities through leadership training and financial support for economic independence."
+    },
+    "category": "micro",
+    "schemeCategoryLabel": "Women / Leadership Training",
+    "subCategory": "Women Leadership and Empowerment",
+    "ministry": "Ministry of Minority Affairs",
+    "agency": "Ministry of Minority Affairs / Empanelled Institutes",
+    "status": "Active",
+    "purposeTags": [
+      "skill"
+    ],
+    "benefit": "Assistance as per scheme guidelines",
+    "minCost": 0,
+    "maxAssistance": 0,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Free leadership training and financial support.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "income_proof"
+    ],
+    "docDetails": {
+      "caste_certificate": "Minority Community Certificate",
+      "aadhaar": "Identity Proof",
+      "income_proof": "Income Certificate"
+    },
+    "conditions": [
+      "Women from minority community"
+    ],
+    "applicationUrl": "https://ncw.gov.in",
+    "applicationMode": "Offline through Minority Affairs Dept",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "scStatus",
+        "op": "eq",
+        "value": "not_available",
+        "label": {
+          "en": "Not open to SC applicants (Minority Communities only)",
+          "hi": "Not open to SC applicants (Minority Communities only)"
+        }
+      },
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2020-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://ncw.gov.in | https://www.ncw.gov.in/publications/women-centric-schemes-by-different-ministries-of-government-of-india-goi"
+  },
+  {
+    "id": "dakshayani",
+    "code": "DAKSHAYANI",
+    "name": {
+      "en": "Dakshayani Scheme (Kerala)",
+      "hi": "Dakshayani Scheme (Kerala)"
+    },
+    "officialName": "Dakshayani - SC/ST Women Entrepreneurship Scheme (Kerala)",
+    "desc": {
+      "en": "Kerala state scheme for promoting entrepreneurship among SC/ST women. 75% subsidy for new ventures up to Rs 10 Lakh, Rs 5 Lakh for expansion.",
+      "hi": "Kerala state scheme for promoting entrepreneurship among SC/ST women. 75% subsidy for new ventures up to Rs 10 Lakh, Rs 5 Lakh for expansion."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Women / State Entrepreneurship",
+    "subCategory": "SC/ST Women Entrepreneurship (State Level)",
+    "ministry": "Kerala State SC/ST/BC Welfare Department",
+    "agency": "Kerala State Government",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Up to Rs 10,00,000 capital subsidy",
+    "minCost": 0,
+    "maxAssistance": 1000000,
+    "fundingPercent": 75,
+    "interestRate": 0,
+    "interestNote": "75% subsidy for new ventures, 5L for expansion.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 25,
+    "collateral": "As per bank norm",
+    "channelTypes": [
+      "SCA"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "aadhaar",
+      "project_report",
+      "bank_passbook"
+    ],
+    "docDetails": {
+      "caste_certificate": "SC/ST Certificate",
+      "aadhaar": "Identity Proof",
+      "project_report": "Project proposal",
+      "bank_passbook": "Bank Account details"
+    },
+    "conditions": [
+      "SC/ST woman from Kerala",
+      "Priority to BPL, single mothers, widows, transgender"
+    ],
+    "applicationUrl": "https://thehindu.com/news/national/kerala",
+    "applicationMode": "Offline through District Administration",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2026-07-04",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.thehindu.com/news/national/kerala/kerala-launches-dakshayani-scheme-to-boost-entrepreneurship-among-scst-women/article71182767.ece"
+  },
+  {
+    "id": "dwcra_unnathi",
+    "code": "DWCRA_UNNATHI",
+    "name": {
+      "en": "DWCRA Women Unnathi Scheme (Andhra Pradesh)",
+      "hi": "DWCRA Women Unnathi Scheme (Andhra Pradesh)"
+    },
+    "officialName": "DWCRA Women Unnathi Scheme (AP)",
+    "desc": {
+      "en": "Andhra Pradesh scheme for SC/ST women members of DWCRA (Self-Help) Groups providing interest-free loans from Rs 30,000 to Rs 5 Lakh for self-employment.",
+      "hi": "Andhra Pradesh scheme for SC/ST women members of DWCRA (Self-Help) Groups providing interest-free loans from Rs 30,000 to Rs 5 Lakh for self-employment."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Women / State Loan",
+    "subCategory": "SC/ST Women Micro Loan (State Level)",
+    "ministry": "Government of Andhra Pradesh",
+    "agency": "DWCRA / District Administration",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Covers projects up to Rs 5,00,000",
+    "minCost": 30000,
+    "maxAssistance": 500000,
+    "fundingPercent": 100,
+    "interestRate": 0,
+    "interestNote": "Zero interest on loans from Rs 30,000 to Rs 5 Lakh.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "Nil",
+    "channelTypes": [
+      "PSB"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "shg_membership",
+      "aadhaar",
+      "project_report"
+    ],
+    "docDetails": {
+      "caste_certificate": "SC/ST Certificate",
+      "shg_membership": "DWCRA/SHG membership proof",
+      "aadhaar": "Aadhar Card",
+      "project_report": "Business plan"
+    },
+    "conditions": [
+      "SC/ST woman from Andhra Pradesh",
+      "Must be DWCRA/SHG member"
+    ],
+    "applicationUrl": "https://www.schemealerts.com/andhra-pradesh",
+    "applicationMode": "Offline through DWCRA Groups",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2025-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.schemealerts.com/andhra-pradesh/andhra-pradesh-dwcra-women-unnathi-scheme"
+  },
+  {
+    "id": "savitribai_mp",
+    "code": "SAVITRIBAI_MP",
+    "name": {
+      "en": "Savitri Bai Phule Swa-Sahayata Samuh Yojana (MP)",
+      "hi": "Savitri Bai Phule Swa-Sahayata Samuh Yojana (MP)"
+    },
+    "officialName": "Savitri Bai Phule Swa-Sahayata Samuh Yojana (Madhya Pradesh)",
+    "desc": {
+      "en": "MP state scheme for SC women self-employment via SHG model. Margin money up to Rs 15,000, project cost up to Rs 50,000. Bank loan up to Rs 2 Lakh.",
+      "hi": "MP state scheme for SC women self-employment via SHG model. Margin money up to Rs 15,000, project cost up to Rs 50,000. Bank loan up to Rs 2 Lakh."
+    },
+    "category": "enterprise",
+    "schemeCategoryLabel": "Women / State Subsidy",
+    "subCategory": "SC Women Self-Employment (State Level)",
+    "ministry": "Government of Madhya Pradesh",
+    "agency": "SC Welfare Department, MP",
+    "status": "Active",
+    "purposeTags": [
+      "business"
+    ],
+    "benefit": "Up to Rs 15,000 capital subsidy",
+    "minCost": 0,
+    "maxAssistance": 200000,
+    "fundingPercent": 50,
+    "interestRate": 0,
+    "interestNote": "Rs 15,000 margin money + bank loan up to Rs 2 Lakh.",
+    "repaymentMonths": 0,
+    "moratoriumMonths": 0,
+    "contributionPercent": 0,
+    "collateral": "As per bank norm",
+    "channelTypes": [
+      "COOP"
+    ],
+    "requiredDocs": [
+      "caste_certificate",
+      "income_proof",
+      "aadhaar",
+      "bank_passbook",
+      "project_report"
+    ],
+    "docDetails": {
+      "caste_certificate": "SC Certificate",
+      "income_proof": "BPL Certificate",
+      "aadhaar": "Aadhar Card",
+      "bank_passbook": "Bank Account details",
+      "project_report": "Business idea note"
+    },
+    "conditions": [
+      "SC woman from MP",
+      "BPL family",
+      "Preferably from SHG"
+    ],
+    "applicationUrl": "https://www.govtschemes.in",
+    "applicationMode": "Offline through District Cooperative Committees",
+    "directApplication": false,
+    "educationNote": "",
+    "rules": [
+      {
+        "field": "gender",
+        "op": "eq",
+        "value": "female",
+        "label": {
+          "en": "Applicant is a woman",
+          "hi": "Applicant is a woman"
+        }
+      },
+      {
+        "field": "age",
+        "op": "gte",
+        "value": 18,
+        "label": {
+          "en": "Age at least 18 years",
+          "hi": "Age at least 18 years"
+        }
+      },
+      {
+        "field": "age",
+        "op": "lte",
+        "value": 55,
+        "label": {
+          "en": "Age at most 55 years",
+          "hi": "Age at most 55 years"
+        }
+      }
+    ],
+    "effectiveFrom": "2024-01-01",
+    "lastVerified": "2026-09-27",
+    "version": "1.0.0",
+    "isNew": true,
+    "sourceRef": "https://www.govtschemes.in/madhya-pradesh-savitri-bai-phule-swa-sahayata-samuh-yojana"
+  }
+]
